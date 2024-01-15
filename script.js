@@ -1,4 +1,5 @@
-let gabi = prompt("Digite sua idade");
-let anoAtual = new Date().getFullYear;
+let gabi = +prompt("Digite sua idade");
 
-console.log(`Você tem ${anoAtual - gabi}anos.`);
+let anoAtual = new Date().getFullYear();
+
+console.log(`Você tem ${anoAtual - gabi} anos.`);
